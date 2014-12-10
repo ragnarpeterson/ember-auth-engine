@@ -1,0 +1,16 @@
+<form {{action 'submit' on='submit'}}>
+  <div class="fields">
+    <div>
+      {{input type='text' value=name placeholder='Name' required='true' name='name' autofocus='true'}}
+    </div>
+    <div>
+      {{input type='email' value=email placeholder='Email' required='true' name='email'}}
+    </div>
+    <div>
+      {{input type='password' value=password placeholder='Password' required='true' name='password'}}
+    </div>
+  </div>
+  <div class="controls">
+    <button type="submit" class="btn">Sign Up</button>
+  </div>
+</form>
