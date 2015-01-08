@@ -4,7 +4,10 @@ A simple auth addon for your Ember app.
 
 ## Installation
 
-* `npm install --save ember-auth-engine`
+```bash
+# From within your ember-cli project
+ember install:addon ember-auth-engine
+```
 
 ## Usage
 
